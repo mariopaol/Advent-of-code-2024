@@ -1,5 +1,5 @@
 # Abrimos el fichero input y lo guardamos datos. Como usamos readlines() se guardará como una lista en la que cada elemento es una linea
-with open('adventofcode\day2\input.txt','r') as entrada:
+with open('day2\input.txt','r') as entrada:
     datos = entrada.readlines()
 
 # Variables globales
@@ -27,7 +27,6 @@ def dampener(list):
         del lista_auxiliar[i]
         if report_valido(lista_auxiliar) == True:
             return True
-            break
         else:
             continue
 
@@ -43,4 +42,3 @@ for line in datos:
         valida += 1
     
 print(valida)
-
