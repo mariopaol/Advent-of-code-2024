@@ -1,4 +1,4 @@
-with open('day4\\input.txt','r') as entrada:
+with open('2024\\day4\\input.txt','r') as entrada:
     datos = entrada.readlines()
 
 def checkd1(coordx,coordy,lista):

@@ -1,4 +1,4 @@
-with open('day5\\input.txt','r') as entrada:
+with open('2024\\day5\\input.txt','r') as entrada:
     datos = entrada.readlines()
 
 # Esta versión del programa sólo funciona si TODOS los pares de páginas están en las instrucciones.

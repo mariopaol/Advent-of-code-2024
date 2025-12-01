@@ -1,4 +1,4 @@
-with open('day8\\input.txt','r') as entrada:
+with open('2024\\day8\\input.txt','r') as entrada:
     datos = entrada.readlines()
 
 '''datos = [

@@ -1,5 +1,5 @@
 # Abrimos el fichero input y lo guardamos datos. Como usamos readlines() se guardará como una lista en la que cada elemento es una linea
-with open('day2\input.txt','r') as entrada:
+with open('2024\\day2\\input.txt','r') as entrada:
     datos = entrada.readlines()
 
 # Variables globales

@@ -1,4 +1,4 @@
-with open('day8\\input.txt','r') as entrada:
+with open('2024\\day8\\input.txt','r') as entrada:
     datos = entrada.readlines()
 
 # Esta función está modificada para la parte 2, ahora devuelve tantas interferencias como esta parte pide, y ya tiene en cuenta que estén dentro del grid
