@@ -17,5 +17,5 @@ for rango in datos_individuales:
                 lista.append(str(i)[k * j : (k + 1) * j])
             if all(x == lista[0] for x in lista): # Si todos los elementos de la lista son iguales al primero
                 resultado += i
-                break
+                break # Este break sirve para que si ya hemos encontrado que un número es erroneo, no repetirlo. por ejemplo 2222 saldría en 2 2 2 2 y en 22 22
 print(resultado)
